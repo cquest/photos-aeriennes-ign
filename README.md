@@ -15,7 +15,7 @@ Ils génèrent une liste des clichés disponibles au format geojson avec les mé
 - **lon**: longitude du centroide de l'emprise
 - **lat**: latitude du centroide de l'emprise
 - **orientation**: orientation en degrés du cliché
-- **url*: nom du fichier JPEG2000 téléchargeable, peut être NULL si non téléchargeable
+- **url**: nom du fichier JPEG2000 téléchargeable, peut être NULL si non téléchargeable
 - le polygone de la géométrie contenu dans le geojson correspond à celle de la couverture du cliché
 
 **Les données sont directement disponibles dans le dossier data, avec un fichier par année.**
