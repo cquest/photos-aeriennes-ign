@@ -19,7 +19,7 @@ Ils génèrent une liste des clichés disponibles au format geojson avec les mé
 - le polygone de la géométrie contenu dans le geojson correspond à celle de la couverture du cliché
 
 **Les données sont directement disponibles dans le dossier data, avec un fichier par année.**
-L'extraction des données a été réalisée début mars 2016 pour la métropole. 3.1 millions de clichés ont été répertoriés.
+L'extraction des données a été réalisée début mars 2016 pour la métropole. 3.1 millions de clichés ont été répertoriés entre 1919 et 2011.
 
 Ces images aériennes sont librement réutilisables (voir http://professionnels.ign.fr/pva) conformément à la loi n°78-753 du 17 juillet 1978, y compris pour des usages commerciaux.
 
