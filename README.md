@@ -6,6 +6,9 @@ Ce projet contient des scripts d'extraction des données sur les photos aérienn
 L'extraction des données a été réalisée début mars 2016 pour la métropole.
 3.1 millions de clichés ont ainsi été répertoriés entre 1919 et 2011.
 
+Ces images aériennes sont librement réutilisables (voir http://professionnels.ign.fr/pva) conformément à la loi n°78-753 du 17 juillet 1978, y compris pour des usages commerciaux.
+Ces fichiers de métadonnées ont pour but de faciliter l'accès et la ré-utilisation de ce formidable patrimoine.
+
 ## Métadonnées des missions (dans /data/missions/)
 - **mission**: identifiant de la mission
 - **annee**: année extraite de l'idta des clichés
@@ -35,8 +38,6 @@ L'extraction des données a été réalisée début mars 2016 pour la métropole
 - **orientation**: orientation en degrés du cliché
 - **url**: nom du fichier JPEG2000 téléchargeable, peut être NULL si non téléchargeable
 - le polygone de la géométrie contenu dans le geojson correspond à celle de la couverture du cliché
-
-Ces images aériennes sont librement réutilisables (voir http://professionnels.ign.fr/pva) conformément à la loi n°78-753 du 17 juillet 1978, y compris pour des usages commerciaux.
 
 ### Statistiques
 
