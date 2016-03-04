@@ -39,6 +39,6 @@ Ces fichiers de métadonnées ont pour but de faciliter l'accès et la ré-utili
 - **url**: nom du fichier JPEG2000 téléchargeable, peut être NULL si non téléchargeable
 - le polygone de la géométrie contenu dans le geojson correspond à celle de la couverture du cliché
 
-### Statistiques
+### Statistiques et data-visualisations
 
 Un tableau permet de visualiser le nombre de clichés pris jour après jour: http://cquest.github.io/pva/pva_par_date.html
