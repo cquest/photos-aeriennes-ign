@@ -22,3 +22,7 @@ Ils génèrent une liste des clichés disponibles au format geojson avec les mé
 L'extraction des données a été réalisée début mars 2016 pour la métropole. 3.1 millions de clichés ont été répertoriés.
 
 Ces images aériennes sont librement réutilisables (voir http://professionnels.ign.fr/pva) conformément à la loi n°78-753 du 17 juillet 1978, y compris pour des usages commerciaux.
+
+## Statistiques
+
+Un tableau permet de visualiser le nombre de clichés pris jour après jour: http://cquest.github.io/pva/pva_par_date.html
