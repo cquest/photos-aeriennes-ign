@@ -1,6 +1,7 @@
 # photos-aeriennes-ign
 
 Ce projet contient des scripts d'extraction des données sur les photos aériennes anciennes disponibles sur le géoportail.
+L'extraction des données a été réalisée début mars 2016 pour la métropole. 3.1 millions de clichés ont été répertoriés.
 
 Ils génèrent une liste des clichés disponibles au format geojson (un fichier par année) avec les métadonnées suivantes:
 - idcliche: identifiant du cliché (unique)
