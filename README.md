@@ -1,8 +1,26 @@
 # photos-aeriennes-ign
 
-Ce projet contient des scripts d'extraction des données sur les photos aériennes anciennes disponibles sur le géoportail.
+Ce projet contient des scripts d'extraction des données sur les photos aériennes anciennes disponibles sur le géoportail ainsi que les données extraites et remises en forme pour en faciliter la ré-utilisation.
 
-Ils génèrent une liste des clichés disponibles au format geojson avec les métadonnées suivantes:
+**Les données sont directement disponibles dans le dossier data, voir la description ci-dessous.**
+L'extraction des données a été réalisée début mars 2016 pour la métropole.
+3.1 millions de clichés ont ainsi été répertoriés entre 1919 et 2011.
+
+## Métadonnées des missions (dans /data/missions/)
+- **mission**: identifiant de la mission
+- **annee**: année extraite de l'idta des clichés
+- **date_debut**: date de début (extrait des métadonnées des clichés)
+- **date_fin**: date de fin (extrait des métadonnées des clichés)
+- **res**: résolution des clichés de la mission (extrait de l'idta)
+- **support**: Ag pour argentique, Nu pour numérique
+- **type**: type de photo P=noir et blanc, C=couleur, IR=infrarouge, IRC=infrarouge couleur ? (extrait de l'idta)
+- **nbcliches**: nombre de clichés pris pour cette mission
+- **surface**: surface couvertue par la mission
+- **somme_surface**: somme des surfaces des clichés (avec recouvrement)
+- **tx_recouvrement**: taux de recouvrement des clichés
+- la géométrie correspond à l'emprise globale des clichés de la mission
+
+### Métadonnées des clichés (dans /data/pva/)
 - **idcliche**: identifiant du cliché (unique)
 - **mission:** identifiant de la mission
 - **numcli**: numéro du cliché
@@ -18,11 +36,8 @@ Ils génèrent une liste des clichés disponibles au format geojson avec les mé
 - **url**: nom du fichier JPEG2000 téléchargeable, peut être NULL si non téléchargeable
 - le polygone de la géométrie contenu dans le geojson correspond à celle de la couverture du cliché
 
-**Les données sont directement disponibles dans le dossier data, avec un fichier par année.**
-L'extraction des données a été réalisée début mars 2016 pour la métropole. 3.1 millions de clichés ont été répertoriés entre 1919 et 2011.
-
 Ces images aériennes sont librement réutilisables (voir http://professionnels.ign.fr/pva) conformément à la loi n°78-753 du 17 juillet 1978, y compris pour des usages commerciaux.
 
-## Statistiques
+### Statistiques
 
 Un tableau permet de visualiser le nombre de clichés pris jour après jour: http://cquest.github.io/pva/pva_par_date.html
